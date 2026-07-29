@@ -1,0 +1,17 @@
+import canonicalLaneMathlib.AdmissibleClass
+import CoalescentProcessesTheoremCanonicalLaneLean.CoalescentProcessesAdmissibleClass
+import CoalescentProcessesTheoremCanonicalLaneLean.KingmanCoalescent
+import CoalescentProcessesTheoremCanonicalLaneLean.CoalescentProcessesBridge
+import CoalescentProcessesTheoremCanonicalLaneLean.CoalescentProcessesGateLemmas
+import CoalescentProcessesTheoremCanonicalLaneLean.CoalescentProcessesFinalTheorem
+
+namespace HautevilleHouse
+namespace CoalescentProcessesTheoremCanonicalLaneLean
+
+-- Root module for the Coalescent Processes Theorem canonical lane Lean package
+
+theorem package_imports_complete : True := by
+  trivial
+
+end CoalescentProcessesTheoremCanonicalLaneLean
+end HautevilleHouse
